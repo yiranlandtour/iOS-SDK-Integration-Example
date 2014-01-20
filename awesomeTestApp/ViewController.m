@@ -26,4 +26,28 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)gameLaunched:(id)sender
+{
+    NSLog(@"Game launches");
+
+}
+
+- (IBAction)mainMenuScreen:(id)sender
+{
+    NSLog(@"User enters main menu screen");
+
+}
+
+- (IBAction)freeCoinsClicked:(id)sender
+{
+    NSLog(@"User Clicks 'Get Free Coins' Button");
+
+}
+
+- (IBAction)userCompletedLevelOne:(id)sender
+{
+    NSLog(@"User completed level one");
+
+}
+
 @end

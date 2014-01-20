@@ -10,4 +10,14 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UISwitch *gameLaunchToggle;
+@property (strong, nonatomic) IBOutlet UISwitch *mainMenuToggle;
+@property (strong, nonatomic) IBOutlet UIButton *freeCoinsToggle;
+@property (strong, nonatomic) IBOutlet UIButton *levelCompleteToggle;
+
+- (IBAction)gameLaunched:(id)sender;
+- (IBAction)mainMenuScreen:(id)sender;
+- (IBAction)freeCoinsClicked:(id)sender;
+- (IBAction)userCompletedLevelOne:(id)sender;
+
 @end
