@@ -115,11 +115,10 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="freeCoinsToggle" destination="tJx-Wh-404" id="LvE-6f-ffz"/>
+                        <outlet property="freeCoinsToggle" destination="GIb-7Q-NBJ" id="Byu-Mu-oPX"/>
                         <outlet property="gameLaunchToggle" destination="A0u-pI-Vez" id="wgL-1k-VMs"/>
-                        <outlet property="levelCompleteToggle" destination="DGQ-Tl-DCA" id="2lY-5k-idG"/>
+                        <outlet property="levelCompleteToggle" destination="Gb7-cT-mcx" id="Xhv-Rs-2DR"/>
                         <outlet property="mainMenuToggle" destination="HZy-Wf-SfH" id="d9t-3B-Q1U"/>
-                        <outlet property="showMainMenu" destination="7gn-5o-ycX" id="FJG-i6-eAZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
