@@ -7,12 +7,17 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+
+    [[NativeXSDK sharedInstance] setDelegate:self];
+    [[NativeXSDK sharedInstance] createSessionWithAppId:@"12198"];
+
     return YES;
 }
 							
@@ -41,6 +46,30 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+// Called if the SDK initiates successfully
+- (void)nativeXSDKDidCreateSession
+{
+
+}
+
+// Called if the SDK fails to initiate.
+- (void)nativeXSDKDidFailToCreateSession:(NSError *)error
+{
+    
+}
+
+// Called when the currency redemption is successful.
+- (void)nativeXSDKDidRedeemWithCurrencyInfo:(NativeXRedeemedCurrencyInfo *)redeemedCurrencyInfo
+{
+    //TODO: implement currency redemption for your users here
+}
+
+// Called when the currency redemption is unsuccessful.
+- (void)nativeXSDKDidRedeemWithError:(NSError *)error
+{
+
 }
 
 @end

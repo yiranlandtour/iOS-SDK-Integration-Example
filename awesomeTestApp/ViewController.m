@@ -29,24 +29,29 @@
 - (IBAction)gameLaunched:(id)sender
 {
     NSLog(@"Game launches");
+    [[NativeXSDK sharedInstance] showAdWithPlacement:kAdPlacementGameLaunch];
 
 }
 
 - (IBAction)mainMenuScreen:(id)sender
 {
     NSLog(@"User enters main menu screen");
+    [[NativeXSDK sharedInstance] showAdWithPlacement:kAdPlacementMainMenuScreen];
 
 }
 
 - (IBAction)freeCoinsClicked:(id)sender
 {
     NSLog(@"User Clicks 'Get Free Coins' Button");
+    [[NativeXSDK sharedInstance] showAdWithCustomPlacement:@"Free Coins Clicked"];
 
 }
 
 - (IBAction)userCompletedLevelOne:(id)sender
 {
     NSLog(@"User completed level one");
+//    [[NativeXSDK sharedInstance] showAdWithPlacement:kAdPlacementLevelCompleted];
+    [[NativeXSDK sharedInstance] showAdWithCustomPlacement:@"Completed Level 1"];
 
 }
 

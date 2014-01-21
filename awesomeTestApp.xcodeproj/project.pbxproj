@@ -21,6 +21,14 @@
 		A0979C9B188D7A91003C28FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0979C7D188D7A91003C28FF /* UIKit.framework */; };
 		A0979CA3188D7A91003C28FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0979CA1188D7A91003C28FF /* InfoPlist.strings */; };
 		A0979CA5188D7A91003C28FF /* awesomeTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0979CA4188D7A91003C28FF /* awesomeTestAppTests.m */; };
+		A0979CB8188D8CA1003C28FF /* libNativeXSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0979CAF188D8CA1003C28FF /* libNativeXSDK.a */; };
+		A0979CB9188D8CA1003C28FF /* NativeXSDKBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A0979CB0188D8CA1003C28FF /* NativeXSDKBundle.bundle */; };
+		A0979CBB188D8E65003C28FF /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0979CBA188D8E65003C28FF /* MessageUI.framework */; };
+		A0979CBD188D8E6E003C28FF /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0979CBC188D8E6E003C28FF /* StoreKit.framework */; };
+		A0979CBF188D8E75003C28FF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0979CBE188D8E75003C28FF /* MediaPlayer.framework */; };
+		A0979CC1188D8E81003C28FF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0979CC0188D8E81003C28FF /* SystemConfiguration.framework */; };
+		A0979CC3188D8E89003C28FF /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0979CC2188D8E89003C28FF /* AdSupport.framework */; };
+		A0979CC5188D8E94003C28FF /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A0979CC4188D8E94003C28FF /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,20 @@
 		A0979CA0188D7A91003C28FF /* awesomeTestAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "awesomeTestAppTests-Info.plist"; sourceTree = "<group>"; };
 		A0979CA2188D7A91003C28FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A0979CA4188D7A91003C28FF /* awesomeTestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = awesomeTestAppTests.m; sourceTree = "<group>"; };
+		A0979CAF188D8CA1003C28FF /* libNativeXSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNativeXSDK.a; sourceTree = "<group>"; };
+		A0979CB0188D8CA1003C28FF /* NativeXSDKBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NativeXSDKBundle.bundle; sourceTree = "<group>"; };
+		A0979CB2188D8CA1003C28FF /* NativeXAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeXAdView.h; sourceTree = "<group>"; };
+		A0979CB3188D8CA1003C28FF /* NativeXCurrency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeXCurrency.h; sourceTree = "<group>"; };
+		A0979CB4188D8CA1003C28FF /* NativeXInAppPurchaseTrackRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeXInAppPurchaseTrackRecord.h; sourceTree = "<group>"; };
+		A0979CB5188D8CA1003C28FF /* NativeXInAppPurchaseTrackRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeXInAppPurchaseTrackRequest.h; sourceTree = "<group>"; };
+		A0979CB6188D8CA1003C28FF /* NativeXRedeemedCurrencyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeXRedeemedCurrencyInfo.h; sourceTree = "<group>"; };
+		A0979CB7188D8CA1003C28FF /* NativeXSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeXSDK.h; sourceTree = "<group>"; };
+		A0979CBA188D8E65003C28FF /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		A0979CBC188D8E6E003C28FF /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A0979CBE188D8E75003C28FF /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A0979CC0188D8E81003C28FF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A0979CC2188D8E89003C28FF /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		A0979CC4188D8E94003C28FF /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +82,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0979CC5188D8E94003C28FF /* libsqlite3.dylib in Frameworks */,
+				A0979CC3188D8E89003C28FF /* AdSupport.framework in Frameworks */,
+				A0979CC1188D8E81003C28FF /* SystemConfiguration.framework in Frameworks */,
+				A0979CBF188D8E75003C28FF /* MediaPlayer.framework in Frameworks */,
+				A0979CBD188D8E6E003C28FF /* StoreKit.framework in Frameworks */,
+				A0979CBB188D8E65003C28FF /* MessageUI.framework in Frameworks */,
 				A0979C7C188D7A91003C28FF /* CoreGraphics.framework in Frameworks */,
 				A0979C7E188D7A91003C28FF /* UIKit.framework in Frameworks */,
+				A0979CB8188D8CA1003C28FF /* libNativeXSDK.a in Frameworks */,
 				A0979C7A188D7A91003C28FF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,6 +111,7 @@
 		A0979C6D188D7A91003C28FF = {
 			isa = PBXGroup;
 			children = (
+				A0979CAE188D8CA1003C28FF /* NativeXiOSSDK-5_0_0 */,
 				A0979C7F188D7A91003C28FF /* awesomeTestApp */,
 				A0979C9E188D7A91003C28FF /* awesomeTestAppTests */,
 				A0979C78188D7A91003C28FF /* Frameworks */,
@@ -101,6 +131,12 @@
 		A0979C78188D7A91003C28FF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A0979CC4188D8E94003C28FF /* libsqlite3.dylib */,
+				A0979CC2188D8E89003C28FF /* AdSupport.framework */,
+				A0979CC0188D8E81003C28FF /* SystemConfiguration.framework */,
+				A0979CBE188D8E75003C28FF /* MediaPlayer.framework */,
+				A0979CBC188D8E6E003C28FF /* StoreKit.framework */,
+				A0979CBA188D8E65003C28FF /* MessageUI.framework */,
 				A0979C79188D7A91003C28FF /* Foundation.framework */,
 				A0979C7B188D7A91003C28FF /* CoreGraphics.framework */,
 				A0979C7D188D7A91003C28FF /* UIKit.framework */,
@@ -150,6 +186,29 @@
 				A0979CA1188D7A91003C28FF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0979CAE188D8CA1003C28FF /* NativeXiOSSDK-5_0_0 */ = {
+			isa = PBXGroup;
+			children = (
+				A0979CAF188D8CA1003C28FF /* libNativeXSDK.a */,
+				A0979CB0188D8CA1003C28FF /* NativeXSDKBundle.bundle */,
+				A0979CB1188D8CA1003C28FF /* NativeXSDKHeaders */,
+			);
+			path = "NativeXiOSSDK-5_0_0";
+			sourceTree = "<group>";
+		};
+		A0979CB1188D8CA1003C28FF /* NativeXSDKHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				A0979CB2188D8CA1003C28FF /* NativeXAdView.h */,
+				A0979CB3188D8CA1003C28FF /* NativeXCurrency.h */,
+				A0979CB4188D8CA1003C28FF /* NativeXInAppPurchaseTrackRecord.h */,
+				A0979CB5188D8CA1003C28FF /* NativeXInAppPurchaseTrackRequest.h */,
+				A0979CB6188D8CA1003C28FF /* NativeXRedeemedCurrencyInfo.h */,
+				A0979CB7188D8CA1003C28FF /* NativeXSDK.h */,
+			);
+			path = NativeXSDKHeaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +292,7 @@
 			files = (
 				A0979C92188D7A91003C28FF /* Images.xcassets in Resources */,
 				A0979C84188D7A91003C28FF /* InfoPlist.strings in Resources */,
+				A0979CB9188D8CA1003C28FF /* NativeXSDKBundle.bundle in Resources */,
 				A0979C8D188D7A91003C28FF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,6 +447,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "awesomeTestApp/awesomeTestApp-Prefix.pch";
 				INFOPLIST_FILE = "awesomeTestApp/awesomeTestApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/ash.lindquist/Developer/NativeX\\ Projects/iOS-IntegrationTestApp/awesomeTestApp/NativeXiOSSDK-5_0_0",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -402,6 +466,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "awesomeTestApp/awesomeTestApp-Prefix.pch";
 				INFOPLIST_FILE = "awesomeTestApp/awesomeTestApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/ash.lindquist/Developer/NativeX\\ Projects/iOS-IntegrationTestApp/awesomeTestApp/NativeXiOSSDK-5_0_0",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;

@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#include "NativeXSDK.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate, NativeXSDKDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

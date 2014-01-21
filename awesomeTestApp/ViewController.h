@@ -7,13 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NativeXSDK.h"
 
 @interface ViewController : UIViewController
 
 @property (strong, nonatomic) IBOutlet UISwitch *gameLaunchToggle;
 @property (strong, nonatomic) IBOutlet UISwitch *mainMenuToggle;
-@property (strong, nonatomic) IBOutlet UIButton *freeCoinsToggle;
-@property (strong, nonatomic) IBOutlet UIButton *levelCompleteToggle;
+@property (strong, nonatomic) IBOutlet UISwitch *freeCoinsToggle;
+@property (strong, nonatomic) IBOutlet UISwitch *levelCompleteToggle;
 
 - (IBAction)gameLaunched:(id)sender;
 - (IBAction)mainMenuScreen:(id)sender;
