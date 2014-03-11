@@ -15,8 +15,13 @@
 {
     // Override point for customization after application launch.
 
-    [[NativeXSDK sharedInstance] setDelegate:self];
-    [[NativeXSDK sharedInstance] createSessionWithAppId:@"12198"];
+    NativeXSDK *SDK = [NativeXSDK sharedInstance];
+    
+    [SDK setDelegate:self];
+    [SDK setShouldOutputDebugLog:YES];
+    [SDK createSessionWithAppId:@"17253"];
+
+    NSLog(@"NativeX SDK Version: %@", [SDK getSDKVersion]);
 
     return YES;
 }
@@ -51,7 +56,7 @@
 // Called if the SDK initiates successfully
 - (void)nativeXSDKDidCreateSession
 {
-
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"NX Session Success" object:nil];
 }
 
 // Called if the SDK fails to initiate.
@@ -64,6 +69,7 @@
 - (void)nativeXSDKDidRedeemWithCurrencyInfo:(NativeXRedeemedCurrencyInfo *)redeemedCurrencyInfo
 {
     //TODO: implement currency redemption for your users here
+    [redeemedCurrencyInfo showRedeemAlert];
 }
 
 // Called when the currency redemption is unsuccessful.

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0814F9818CFA6BE00DAE30A /* libNativeXSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0814F9018CFA6BE00DAE30A /* libNativeXSDK.a */; };
 		A0979C7A188D7A91003C28FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0979C79188D7A91003C28FF /* Foundation.framework */; };
 		A0979C7C188D7A91003C28FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0979C7B188D7A91003C28FF /* CoreGraphics.framework */; };
 		A0979C7E188D7A91003C28FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0979C7D188D7A91003C28FF /* UIKit.framework */; };
@@ -21,8 +22,6 @@
 		A0979C9B188D7A91003C28FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0979C7D188D7A91003C28FF /* UIKit.framework */; };
 		A0979CA3188D7A91003C28FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0979CA1188D7A91003C28FF /* InfoPlist.strings */; };
 		A0979CA5188D7A91003C28FF /* awesomeTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0979CA4188D7A91003C28FF /* awesomeTestAppTests.m */; };
-		A0979CB8188D8CA1003C28FF /* libNativeXSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0979CAF188D8CA1003C28FF /* libNativeXSDK.a */; };
-		A0979CB9188D8CA1003C28FF /* NativeXSDKBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A0979CB0188D8CA1003C28FF /* NativeXSDKBundle.bundle */; };
 		A0979CBB188D8E65003C28FF /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0979CBA188D8E65003C28FF /* MessageUI.framework */; };
 		A0979CBD188D8E6E003C28FF /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0979CBC188D8E6E003C28FF /* StoreKit.framework */; };
 		A0979CBF188D8E75003C28FF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0979CBE188D8E75003C28FF /* MediaPlayer.framework */; };
@@ -42,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A0814F9018CFA6BE00DAE30A /* libNativeXSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNativeXSDK.a; sourceTree = "<group>"; };
+		A0814F9218CFA6BE00DAE30A /* NativeXAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeXAdView.h; sourceTree = "<group>"; };
+		A0814F9318CFA6BE00DAE30A /* NativeXCurrency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeXCurrency.h; sourceTree = "<group>"; };
+		A0814F9418CFA6BE00DAE30A /* NativeXInAppPurchaseTrackRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeXInAppPurchaseTrackRecord.h; sourceTree = "<group>"; };
+		A0814F9518CFA6BE00DAE30A /* NativeXInAppPurchaseTrackRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeXInAppPurchaseTrackRequest.h; sourceTree = "<group>"; };
+		A0814F9618CFA6BE00DAE30A /* NativeXRedeemedCurrencyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeXRedeemedCurrencyInfo.h; sourceTree = "<group>"; };
+		A0814F9718CFA6BE00DAE30A /* NativeXSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeXSDK.h; sourceTree = "<group>"; };
 		A0979C76188D7A91003C28FF /* awesomeTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = awesomeTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0979C79188D7A91003C28FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A0979C7B188D7A91003C28FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,14 +67,6 @@
 		A0979CA0188D7A91003C28FF /* awesomeTestAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "awesomeTestAppTests-Info.plist"; sourceTree = "<group>"; };
 		A0979CA2188D7A91003C28FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A0979CA4188D7A91003C28FF /* awesomeTestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = awesomeTestAppTests.m; sourceTree = "<group>"; };
-		A0979CAF188D8CA1003C28FF /* libNativeXSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNativeXSDK.a; sourceTree = "<group>"; };
-		A0979CB0188D8CA1003C28FF /* NativeXSDKBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NativeXSDKBundle.bundle; sourceTree = "<group>"; };
-		A0979CB2188D8CA1003C28FF /* NativeXAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeXAdView.h; sourceTree = "<group>"; };
-		A0979CB3188D8CA1003C28FF /* NativeXCurrency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeXCurrency.h; sourceTree = "<group>"; };
-		A0979CB4188D8CA1003C28FF /* NativeXInAppPurchaseTrackRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeXInAppPurchaseTrackRecord.h; sourceTree = "<group>"; };
-		A0979CB5188D8CA1003C28FF /* NativeXInAppPurchaseTrackRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeXInAppPurchaseTrackRequest.h; sourceTree = "<group>"; };
-		A0979CB6188D8CA1003C28FF /* NativeXRedeemedCurrencyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeXRedeemedCurrencyInfo.h; sourceTree = "<group>"; };
-		A0979CB7188D8CA1003C28FF /* NativeXSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeXSDK.h; sourceTree = "<group>"; };
 		A0979CBA188D8E65003C28FF /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		A0979CBC188D8E6E003C28FF /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		A0979CBE188D8E75003C28FF /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
@@ -86,11 +84,11 @@
 				A0979CC3188D8E89003C28FF /* AdSupport.framework in Frameworks */,
 				A0979CC1188D8E81003C28FF /* SystemConfiguration.framework in Frameworks */,
 				A0979CBF188D8E75003C28FF /* MediaPlayer.framework in Frameworks */,
+				A0814F9818CFA6BE00DAE30A /* libNativeXSDK.a in Frameworks */,
 				A0979CBD188D8E6E003C28FF /* StoreKit.framework in Frameworks */,
 				A0979CBB188D8E65003C28FF /* MessageUI.framework in Frameworks */,
 				A0979C7C188D7A91003C28FF /* CoreGraphics.framework in Frameworks */,
 				A0979C7E188D7A91003C28FF /* UIKit.framework in Frameworks */,
-				A0979CB8188D8CA1003C28FF /* libNativeXSDK.a in Frameworks */,
 				A0979C7A188D7A91003C28FF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,10 +106,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A0814F8F18CFA6BE00DAE30A /* NativeXiOSSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A0814F9018CFA6BE00DAE30A /* libNativeXSDK.a */,
+				A0814F9118CFA6BE00DAE30A /* NativeXSDKHeaders */,
+			);
+			path = NativeXiOSSDK;
+			sourceTree = "<group>";
+		};
+		A0814F9118CFA6BE00DAE30A /* NativeXSDKHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				A0814F9218CFA6BE00DAE30A /* NativeXAdView.h */,
+				A0814F9318CFA6BE00DAE30A /* NativeXCurrency.h */,
+				A0814F9418CFA6BE00DAE30A /* NativeXInAppPurchaseTrackRecord.h */,
+				A0814F9518CFA6BE00DAE30A /* NativeXInAppPurchaseTrackRequest.h */,
+				A0814F9618CFA6BE00DAE30A /* NativeXRedeemedCurrencyInfo.h */,
+				A0814F9718CFA6BE00DAE30A /* NativeXSDK.h */,
+			);
+			path = NativeXSDKHeaders;
+			sourceTree = "<group>";
+		};
 		A0979C6D188D7A91003C28FF = {
 			isa = PBXGroup;
 			children = (
-				A0979CAE188D8CA1003C28FF /* NativeXiOSSDK-5_0_0 */,
+				A0814F8F18CFA6BE00DAE30A /* NativeXiOSSDK */,
 				A0979C7F188D7A91003C28FF /* awesomeTestApp */,
 				A0979C9E188D7A91003C28FF /* awesomeTestAppTests */,
 				A0979C78188D7A91003C28FF /* Frameworks */,
@@ -186,29 +206,6 @@
 				A0979CA1188D7A91003C28FF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A0979CAE188D8CA1003C28FF /* NativeXiOSSDK-5_0_0 */ = {
-			isa = PBXGroup;
-			children = (
-				A0979CAF188D8CA1003C28FF /* libNativeXSDK.a */,
-				A0979CB0188D8CA1003C28FF /* NativeXSDKBundle.bundle */,
-				A0979CB1188D8CA1003C28FF /* NativeXSDKHeaders */,
-			);
-			path = "NativeXiOSSDK-5_0_0";
-			sourceTree = "<group>";
-		};
-		A0979CB1188D8CA1003C28FF /* NativeXSDKHeaders */ = {
-			isa = PBXGroup;
-			children = (
-				A0979CB2188D8CA1003C28FF /* NativeXAdView.h */,
-				A0979CB3188D8CA1003C28FF /* NativeXCurrency.h */,
-				A0979CB4188D8CA1003C28FF /* NativeXInAppPurchaseTrackRecord.h */,
-				A0979CB5188D8CA1003C28FF /* NativeXInAppPurchaseTrackRequest.h */,
-				A0979CB6188D8CA1003C28FF /* NativeXRedeemedCurrencyInfo.h */,
-				A0979CB7188D8CA1003C28FF /* NativeXSDK.h */,
-			);
-			path = NativeXSDKHeaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,7 +289,6 @@
 			files = (
 				A0979C92188D7A91003C28FF /* Images.xcassets in Resources */,
 				A0979C84188D7A91003C28FF /* InfoPlist.strings in Resources */,
-				A0979CB9188D8CA1003C28FF /* NativeXSDKBundle.bundle in Resources */,
 				A0979C8D188D7A91003C28FF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,7 +445,7 @@
 				INFOPLIST_FILE = "awesomeTestApp/awesomeTestApp-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/ash.lindquist/Developer/NativeX\\ Projects/iOS-IntegrationTestApp/awesomeTestApp/NativeXiOSSDK-5_0_0",
+					"$(SRCROOT)/NativeXiOSSDK",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -468,7 +464,7 @@
 				INFOPLIST_FILE = "awesomeTestApp/awesomeTestApp-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/ash.lindquist/Developer/NativeX\\ Projects/iOS-IntegrationTestApp/awesomeTestApp/NativeXiOSSDK-5_0_0",
+					"$(SRCROOT)/NativeXiOSSDK",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -537,6 +533,7 @@
 				A0979CAA188D7A91003C28FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0979CAB188D7A91003C28FF /* Build configuration list for PBXNativeTarget "awesomeTestAppTests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +542,7 @@
 				A0979CAD188D7A91003C28FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="13B42" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13C64" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,22 +16,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7VR-Dx-iqz">
-                                <rect key="frame" x="77" y="68" width="203" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="ShowAd - &quot;Game Launch&quot;">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="gameLaunched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FH2-PX-tZd"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7gn-5o-ycX">
-                                <rect key="frame" x="77" y="107" width="181" height="33"/>
+                                <rect key="frame" x="134" y="98" width="131" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="ShowAd - &quot;Main Menu&quot;">
+                                <state key="normal" title="Enter Main Menu">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -39,10 +28,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tJx-Wh-404">
-                                <rect key="frame" x="77" y="146" width="179" height="33"/>
+                                <rect key="frame" x="134" y="137" width="115" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="ShowAd - &quot;Free Coins&quot;">
+                                <state key="normal" title="Get Free Coins">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -50,10 +39,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DGQ-Tl-DCA">
-                                <rect key="frame" x="77" y="185" width="230" height="33"/>
+                                <rect key="frame" x="134" y="176" width="90" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="ShowAd - &quot;Complete Level 1&quot;">
+                                <state key="normal" title="End Level 1">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -67,57 +56,91 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="A0u-pI-Vez">
-                                <rect key="frame" x="20" y="69" width="51" height="31"/>
+                            <switch opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="HZy-Wf-SfH">
+                                <rect key="frame" x="20" y="99" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="onTintColor" red="0.58431375029999999" green="0.8392156959" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="thumbTintColor" red="0.068284437059999994" green="0.52632433180000004" blue="0.34208825230000001" alpha="1" colorSpace="calibratedRGB"/>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="HZy-Wf-SfH">
-                                <rect key="frame" x="20" y="108" width="51" height="31"/>
+                            <switch opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="GIb-7Q-NBJ">
+                                <rect key="frame" x="20" y="138" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="onTintColor" red="0.58431375029999999" green="0.8392156959" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="thumbTintColor" red="0.068284437059999994" green="0.52632433180000004" blue="0.34208825230000001" alpha="1" colorSpace="calibratedRGB"/>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="GIb-7Q-NBJ">
-                                <rect key="frame" x="20" y="147" width="51" height="31"/>
+                            <switch opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Gb7-cT-mcx">
+                                <rect key="frame" x="20" y="177" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="onTintColor" red="0.58431375029999999" green="0.8392156959" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="thumbTintColor" red="0.068284437059999994" green="0.52632433180000004" blue="0.34208825230000001" alpha="1" colorSpace="calibratedRGB"/>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Gb7-cT-mcx">
-                                <rect key="frame" x="20" y="186" width="51" height="31"/>
+                            <switch opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lSc-6k-XbB">
+                                <rect key="frame" x="77" y="177" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="onTintColor" red="0.58431375029999999" green="0.8392156959" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="thumbTintColor" red="0.068284437059999994" green="0.52632433180000004" blue="0.34208825230000001" alpha="1" colorSpace="calibratedRGB"/>
                             </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pass" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Qc-l9-TeX">
+                                <rect key="frame" x="26" y="216" width="37" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fail" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RZ9-C5-X44">
+                                <rect key="frame" x="88" y="216" width="27" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Ad Loaded?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fv2-6e-wwQ">
+                                <rect key="frame" x="26" y="69" width="94" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="akO-1N-JeQ">
+                                <rect key="frame" x="134" y="65" width="133" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Start Level 1 (fetch)">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startLevelOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gei-de-Ff8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Gb7-cT-mcx" firstAttribute="trailing" secondItem="GIb-7Q-NBJ" secondAttribute="trailing" id="05I-dM-vbE"/>
-                            <constraint firstItem="HZy-Wf-SfH" firstAttribute="top" secondItem="A0u-pI-Vez" secondAttribute="bottom" constant="8" id="6hS-jI-akh"/>
-                            <constraint firstItem="A0u-pI-Vez" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="EfW-ja-nwn"/>
+                            <constraint firstItem="lSc-6k-XbB" firstAttribute="centerX" secondItem="RZ9-C5-X44" secondAttribute="centerX" id="DBH-Hn-3fr"/>
                             <constraint firstItem="HZy-Wf-SfH" firstAttribute="centerY" secondItem="7gn-5o-ycX" secondAttribute="centerY" id="FOX-ne-PJm"/>
                             <constraint firstItem="Gb7-cT-mcx" firstAttribute="trailing" secondItem="HZy-Wf-SfH" secondAttribute="trailing" id="LMt-o6-RtA"/>
+                            <constraint firstItem="fv2-6e-wwQ" firstAttribute="top" secondItem="a0P-uh-xdb" secondAttribute="bottom" constant="8" id="PJp-sy-1rP"/>
                             <constraint firstItem="a0P-uh-xdb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="QPf-39-gLD"/>
                             <constraint firstItem="DGQ-Tl-DCA" firstAttribute="leading" secondItem="7gn-5o-ycX" secondAttribute="leading" id="Rnb-kx-Uyx"/>
                             <constraint firstItem="a0P-uh-xdb" firstAttribute="top" secondItem="Ndo-c8-MPJ" secondAttribute="bottom" constant="20" id="Tyf-0a-uUA"/>
+                            <constraint firstItem="HZy-Wf-SfH" firstAttribute="top" secondItem="fv2-6e-wwQ" secondAttribute="bottom" constant="9" id="UXL-tz-VAh"/>
+                            <constraint firstItem="lSc-6k-XbB" firstAttribute="centerY" secondItem="Gb7-cT-mcx" secondAttribute="centerY" id="YVT-4G-6xO"/>
                             <constraint firstItem="DGQ-Tl-DCA" firstAttribute="leading" secondItem="tJx-Wh-404" secondAttribute="leading" id="bjA-uv-TOd"/>
-                            <constraint firstItem="A0u-pI-Vez" firstAttribute="top" secondItem="a0P-uh-xdb" secondAttribute="bottom" constant="8" id="cXv-Ss-2es"/>
-                            <constraint firstItem="A0u-pI-Vez" firstAttribute="centerY" secondItem="7VR-Dx-iqz" secondAttribute="centerY" id="fDX-OR-ap1"/>
-                            <constraint firstItem="Gb7-cT-mcx" firstAttribute="trailing" secondItem="A0u-pI-Vez" secondAttribute="trailing" id="fHv-dQ-Ax6"/>
+                            <constraint firstItem="DGQ-Tl-DCA" firstAttribute="leading" secondItem="lSc-6k-XbB" secondAttribute="trailing" constant="8" id="cUL-be-tqf"/>
+                            <constraint firstItem="9Qc-l9-TeX" firstAttribute="top" secondItem="Gb7-cT-mcx" secondAttribute="bottom" constant="8" id="chz-WE-mAC"/>
+                            <constraint firstItem="Gb7-cT-mcx" firstAttribute="centerX" secondItem="9Qc-l9-TeX" secondAttribute="centerX" id="h7f-yE-1HC"/>
+                            <constraint firstItem="HZy-Wf-SfH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="iIH-dF-AcZ"/>
+                            <constraint firstItem="lSc-6k-XbB" firstAttribute="leading" secondItem="Gb7-cT-mcx" secondAttribute="trailing" constant="8" id="ihB-tr-9eF"/>
+                            <constraint firstItem="fv2-6e-wwQ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="26" id="kQq-9S-FFI"/>
                             <constraint firstItem="tJx-Wh-404" firstAttribute="centerY" secondItem="GIb-7Q-NBJ" secondAttribute="centerY" id="qgB-6b-o6G"/>
+                            <constraint firstItem="RZ9-C5-X44" firstAttribute="centerY" secondItem="9Qc-l9-TeX" secondAttribute="centerY" id="r8f-ik-Ut1"/>
                             <constraint firstItem="DGQ-Tl-DCA" firstAttribute="centerY" secondItem="Gb7-cT-mcx" secondAttribute="centerY" id="rNR-yg-uQL"/>
-                            <constraint firstItem="7VR-Dx-iqz" firstAttribute="leading" secondItem="A0u-pI-Vez" secondAttribute="trailing" constant="8" id="rdH-61-H9k"/>
                             <constraint firstItem="GIb-7Q-NBJ" firstAttribute="top" secondItem="HZy-Wf-SfH" secondAttribute="bottom" constant="8" id="s9S-sa-yl2"/>
-                            <constraint firstItem="DGQ-Tl-DCA" firstAttribute="leading" secondItem="7VR-Dx-iqz" secondAttribute="leading" id="u5p-39-Wzu"/>
                             <constraint firstItem="Gb7-cT-mcx" firstAttribute="top" secondItem="GIb-7Q-NBJ" secondAttribute="bottom" constant="8" id="uuP-CD-li2"/>
+                            <constraint firstItem="lSc-6k-XbB" firstAttribute="centerY" secondItem="DGQ-Tl-DCA" secondAttribute="centerY" id="zKc-7v-q67"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="freeCoinsToggle" destination="GIb-7Q-NBJ" id="Byu-Mu-oPX"/>
-                        <outlet property="gameLaunchToggle" destination="A0u-pI-Vez" id="wgL-1k-VMs"/>
                         <outlet property="levelCompleteToggle" destination="Gb7-cT-mcx" id="Xhv-Rs-2DR"/>
+                        <outlet property="levelFailedToggle" destination="lSc-6k-XbB" id="SMg-an-8XC"/>
                         <outlet property="mainMenuToggle" destination="HZy-Wf-SfH" id="d9t-3B-Q1U"/>
                     </connections>
                 </viewController>

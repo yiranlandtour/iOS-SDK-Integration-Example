@@ -9,14 +9,17 @@
 #import <UIKit/UIKit.h>
 #import "NativeXSDK.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <NativeXAdViewDelegate>
 
-@property (strong, nonatomic) IBOutlet UISwitch *gameLaunchToggle;
 @property (strong, nonatomic) IBOutlet UISwitch *mainMenuToggle;
 @property (strong, nonatomic) IBOutlet UISwitch *freeCoinsToggle;
 @property (strong, nonatomic) IBOutlet UISwitch *levelCompleteToggle;
+@property (strong, nonatomic) IBOutlet UISwitch *levelFailedToggle;
 
-- (IBAction)gameLaunched:(id)sender;
+//Ads should be fetched prior to being shown.
+- (void)loadLaunchAds:(NSNotification *)notification;
+- (IBAction)startLevelOne:(id)sender;
+
 - (IBAction)mainMenuScreen:(id)sender;
 - (IBAction)freeCoinsClicked:(id)sender;
 - (IBAction)userCompletedLevelOne:(id)sender;
